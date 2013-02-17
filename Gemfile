@@ -5,11 +5,12 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'high_voltage'
 gem 'sqlite3'
 
 group :development, :test do
 	gem 'rspec-rails'
-	gem 'capybara'
+	gem 'capybara', '1.1.4'
 end
 
 # Gems used only for assets and not required
